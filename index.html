@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+
+        <title> MS | Dev Studio </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA=Compatible" content="IE-edge">
+        <meta name="description" content="#">
+        <meta name="keywords" content="#">
+        <meta property="og:title" content="Criação de Site Responsivos & Profissionais">
+        <meta property="og:description" content="#">
+        <meta property="og:image" content="#">
+        <meta name="robots" content="index, follow">
+        <link rel="stylesheet" href="src/assets/style/index.css">
+        <link rel="stylesheet" href="src/assets/style/responsive.css">
+        <link rel="shortcut icon" href="src/assets/img/Logotype-header.png">
+
+    </head>
+
+    <body>
+
+        <header>
+            
+            <a href="index.html">
+                <img class="logotype-header" src="src/assets/img/Logotype-header.png">
+            </a>
+
+            <nav>
+                <ul>
+                    <li> <a href="index.html"> Home </a></li>
+
+                    <li> <a href="#about"> Sobre </a></li>
+
+                    <li> <a href="#services"> Serviços </a></li>
+
+                    <li> <a href="#portifolio"> Portifólio </a></li>
+
+                    <li> <a href="#contato"> Contato </a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="about" class="section-about">
+                <div class="about-media">
+                    <video autoplay muted loop playsinline class="video">
+                        <source src="src/assets/video/loop-video.mp4" type="video/mp4">
+                    </video>
+
+                    <div class="about-content">
+                        <h3> Olá, me chamo Murillo Santos </h3>
+                        <p> Desenvolvedor Web Front-End </p>
+                        <button onclick="window.location.href='portifolio'" class="btn-about-content"> Ver projetos </button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="section-about-me">
+                <div class="main-about-me">
+                    <header>
+                        <div class="picture-profile">
+                            <img src="src/assets/img/img-about-me.jpg">
+                        </div>
+
+                        <div class="text-about-me">
+                            <h1> Sobre mim </h1>
+                            <p>
+
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                Officia maxime impedit, iste, 
+                                repudiandae aspernatur omnis repellat commodi 
+                                cum adipisci voluptatum molestiae voluptas odit 
+                                architecto blanditiis et a quos cumque similique.
+                                
+                            </p>
+                            <a class="curriculo" href="#"> Currículo PDF </a>
+                        </div>
+
+                    </header>
+                </div>
+            </section>
+            
+            <section id="services" class="section-services">
+                <div class="services">
+                    <header class="header-services">
+                        <h1>Serviços</h1>
+                        <p>Sobre meus serviços</p>
+                    </header>
+                    
+                    <div class="card-flex-row">
+                        <div class="card-services">
+                            <header class="card">
+                                <div class="card-top">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="16 18 22 12 16 6"></polyline>
+                                        <polyline points="8 6 2 12 8 18"></polyline>
+                                    </svg>
+                                    <h1>Criação de Site</h1>
+                                </div>
+                                <p>Desenvolvimento de sites, rápidos, modernos e personalizados.</p>
+                            </header>
+                        </div>
+                        
+                        <div class="card-services">
+                            <header class="card">
+                                <div class="card-top">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                        <line x1="8" y1="21" x2="16" y2="21"></line>
+                                        <line x1="12" y1="17" x2="12" y2="21"></line>
+                                    </svg>
+                                    <h1>Sites responsivos</h1>
+                                </div>
+                                <p>Sites adaptável para todos os tipos de dispositivos.</p>
+                            </header>
+                        </div>
+                        
+                        <div class="card-services">
+                            <header class="card">
+                                <div class="card-top">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                                    </svg>
+                                    <h1>Otimização de Performance</h1>
+                                </div>
+                                <p>Melhoria no tempo de carregamento e na eficiência do site.</p>
+                            </header>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
